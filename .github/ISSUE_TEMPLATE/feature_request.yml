@@ -1,0 +1,23 @@
+name: 请求功能 / Feature request
+description: 请求需要的功能。 / Request the required functions.
+labels: [ Feature ]
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        为了使我们更好地帮助你，请提供以下信息。
+
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么需要此功能 / Why do you need this feature
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 详细功能要求 / Detailed features requirements
+    validations:
+      required: true
