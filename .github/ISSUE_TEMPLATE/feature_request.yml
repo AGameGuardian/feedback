@@ -1,6 +1,6 @@
 name: 请求功能 / Feature request
 description: 请求需要的功能。 / Request the required functions.
-labels: [ Feature ]
+labels: [ "Feature" ]
 title: "[Feature] "
 body:
   - type: markdown

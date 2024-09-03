@@ -1,6 +1,6 @@
 name: 反馈问题 / Bug Report
 description: 反馈错误或异常。 / Report errors or unexpected.
-labels: [ Bug ]
+labels: [ "Bug" ]
 title: "[Bug] "
 body:
   - type: markdown
@@ -44,8 +44,8 @@ body:
 
   - type: textarea
     attributes:
-      label: 文件 / Files
-      placeholder: 将文件粘贴到此处或者点击文本框底栏上传文件。 / Paste logs here or upload logs by clicking the bar on the bottom.
+      label: 文件 / File
+      placeholder: 将文件粘贴到此处或者点击文本框底栏上传文件。 / Paste file here or upload file by clicking the bar on the bottom.
     validations:
       required: false
 
